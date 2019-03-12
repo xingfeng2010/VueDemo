@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/shop.png">
-    <router-view/>
+    <div class="main">
+      <router-view></router-view>>
+    </div>
   </div>
 </template>
 
@@ -19,5 +20,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 100%;
 }
 </style>

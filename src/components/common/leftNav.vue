@@ -26,7 +26,6 @@
         <div>统计</div>
       </li>
     </ul>
-
   </div>
 </template>
 
@@ -46,13 +45,13 @@ export default {
     color:#fff;
     font-size:10px;
     height:100%;
-    background-color: #1D8ce0;
+    background-color: #8B5F65;
     float:left;
-    width:5%;
+    width: 5%;
   }
 
   .iconfont{
-    font-size:24px;
+    font-size:30px;
   }
 
   .left-nav ul{
@@ -63,7 +62,7 @@ export default {
   .left-nav li{
     list-style: none;
     text-align: center;
-    border-bottom:1px solid #20a0ff;
+    border-bottom:1px solid #FF8C00;
     padding:10px;
   }
 </style>
